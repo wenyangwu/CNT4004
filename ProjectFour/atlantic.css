@@ -1,0 +1,106 @@
+body {
+	background: linear-gradient(#FFFFFF, #90C7E3);
+	color: #666666;
+	font-family: "Arial", "Helvetica", sans-serif;
+}
+
+header{
+	background-color:#000033;
+	color: #FFFFFF;
+	background-image: url("images/sunset.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	line-height: 400%;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+nav{
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+main{
+	padding: 1px 20px 20px 20px;
+}
+
+main ul{
+	list-style-image: url('images/marker.gif');
+}
+
+h1{
+	font-family: "Georgia", "Times New Roman", serif;
+	margin-top: 0;
+}
+
+h2{
+	font-family: "Georgia", "Times New Roman", serif;
+	color: #3399CC;
+	outline: 1px #CCCCCC;
+}
+
+h3{
+	font-family: "Georgia", "Times New Roman", serif;
+	color: #000099;
+}
+
+footer{
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: "Georgia", "Times New Roman", serif;
+}
+
+dt{
+	font-weight: bold;
+	line-height: 250%;
+	color: #000099;
+}
+
+.resort{
+	color: #5C7FA3;
+	font-weight: bold;
+}
+
+#contact{
+	font-size: 90%;
+}
+
+#wrapper{
+	background-color: #FFFFFF;
+	width:80%;
+	margin: auto;
+	min-width: 960px;
+	max-width: 2048px;
+	outline: 3px; 
+	box-shadow: 3px 3px 3px #333333;
+}
+
+#main-image{
+	height: 300px;
+	background-image: url("images/coast-main.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#accomodations-image{
+	height: 300px;
+	background-image: url("images/bungalow-main.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#activities-image{
+	height: 300px;
+	background-image: url("images/trail-main.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
